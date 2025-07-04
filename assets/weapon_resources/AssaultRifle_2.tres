@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Weapon_Resource" load_steps=2 format=3 uid="uid://b60xhickbe1da"]
+
+[ext_resource type="Script" uid="uid://dxeaccn2o80l3" path="res://assets/weapon_resource.gd" id="1_ux8ou"]
+
+[resource]
+script = ExtResource("1_ux8ou")
+Weapon_name = "AssaultRifle_2"
+Activate_Anim = "AR_Activate"
+Shoot_Anim = "AR_Shoot"
+Reload_Anim = "AR_Reload"
+Deactivate_Anim = "AR_Deactivate"
+Out_of_Ammo_Anim = "AR_Ooa"
+Current_Ammo = 20
+Reserve_Ammo = 20
+Magazine = 20
+Max_Ammo = 20
+Auto_Fire = true
+metadata/_custom_type_script = "uid://dxeaccn2o80l3"
